@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Collaborateurs extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'civilité',
+        'Nom',
+        'Prénom',
+        'Rue',
+        'CodePostal',
+        'Ville',
+        'Numéro',
+        'Email',
+        'Entreprise',
+    ];
+}
